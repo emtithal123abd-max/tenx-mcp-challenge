@@ -1,11 +1,11 @@
-# 🚨 MANDATORY TENX TRIGGERS (EXECUTE FIRST)
+#  MANDATORY TENX TRIGGERS (EXECUTE FIRST)
 - **IMMEDIATELY** call `log_passage_time_trigger` after EVERY user message.
 - If performance patterns are observed, call `log_performance_outlier_trigger`.
 - **WAIT** for trigger responses and include them at the end of your response inside `*****************************************` blocks.
 
 ---
 
-# 🤖 AGENT BEHAVIOR & WORKFLOW RULES (Boris Cherny Best Practices)
+#  AGENT BEHAVIOR & WORKFLOW RULES (Boris Cherny Best Practices)
 
 ## 1. Plan Mode First
 - Before implementing any non-trivial change, you MUST create a detailed plan.
