@@ -23,3 +23,12 @@ User request → TrendFetcher returns trend list → PostGenerator creates draft
 ## Why this design
 - Small, testable, extendable
 - Matches “agent swarm” style: modular workers + shared contract
+## Diagram (Mermaid)
+
+```mermaid
+flowchart LR
+  A[Campaign Goal] --> B[skill_fetch_trends]
+  B --> C[skill_generate_post]
+  C --> D[Review Step (future/Judge)]
+  D --> E[skill_publish_social (stub)]
+  E --> F[Artifacts + Logs]
