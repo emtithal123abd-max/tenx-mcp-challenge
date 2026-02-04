@@ -2,6 +2,7 @@
 
 ## Prime directive
 - Specs in `/specs` are the source of truth. Read them before changing anything.
+- NEVER generate code without checking `/specs` first.
 
 ## Workflow rules
 - Prefer smallest change that satisfies the spec.
