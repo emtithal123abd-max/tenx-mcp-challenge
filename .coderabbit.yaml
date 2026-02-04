@@ -1,0 +1,6 @@
+reviews:
+  auto_review: true
+  review_status: true
+  path_filters:
+    - "!**/.venv/**"
+    - "!**/artifacts/**"
