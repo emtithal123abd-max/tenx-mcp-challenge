@@ -73,3 +73,6 @@ erDiagram
   CONTENT_DRAFT { string draft_id string snapshot_id string text float confidence string status }
   PUBLISH_JOB { string job_id string draft_id string platform datetime scheduled_at string status }
   AUDIT_LOG { string log_id string entity_type string entity_id string action datetime created_at }
+## Validation
+- Local tests: `uv run pytest -q` (2 passed)
+- CI: GitHub Actions workflow in `.github/workflows/main.yml`
