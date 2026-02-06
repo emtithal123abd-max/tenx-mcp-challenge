@@ -15,3 +15,9 @@ This repository contains:
 ## How to run locally
 ```bash
 pytest -q
+```md
+## Day 2 Submission
+- Report: see `REPORT.md`
+- Run tests: `pytest -q`
+- CI: `.github/workflows/main.yml` runs on push/PR
+- Specs are source of truth: `/specs`
